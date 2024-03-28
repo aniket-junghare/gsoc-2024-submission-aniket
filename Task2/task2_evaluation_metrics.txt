@@ -1,0 +1,17 @@
+
+The evaluation metrics used to assess the model performance are:
+
+1) Within-Cluster Sum of Squares (WCSS):
+- Employed as part of the Elbow Method to determine the optimal number of clusters.
+- Measures the sum of squared distances between each data point and its corresponding centroid within a cluster.
+- Lower WCSS values suggest better cluster formation, indicating tighter clusters with data points closer to their centroids.
+
+
+2) Silhouette Score:
+- Utilized to evaluate the quality of clusters formed by KMeans clustering.
+- Measures the similarity of an object to its own cluster compared to other clusters.
+- Silhouette scores range from -1 to 1, where a score closer to 1 indicates dense, well-separated clusters.
+- The average silhouette score across all clusters assesses the overall quality of clustering.
+- These evaluation metrics play a crucial role in determining the optimal number of clusters and evaluating the quality of clustering in unsupervised learning tasks. 
+  The Elbow method aids in identifying the optimal number of clusters by analyzing WCSS reduction, 
+  while the Silhouette Score facilitates the assessment of cluster separation and cohesion, providing insights into the clustering algorithm's performance.
