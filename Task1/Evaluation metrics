@@ -1,0 +1,21 @@
+Evaluation Metrics for Artist, Style, and Genre Classification:
+
+1) Cross-Entropy Loss (Categorical Cross-Entropy):
+- Utilized for both training and testing phases to quantify model performance.
+- Implemented using nn.CrossEntropyLoss() in PyTorch.
+- Measures the discrepancy between model predictions and actual labels.
+- Lower values indicate better model performance, as they signify a smaller difference between predicted and actual values.
+
+2) Accuracy:
+- Essential metric for assessing classification accuracy.
+- Calculated as the ratio of correct predictions to total predictions.
+- Expressed as a percentage, providing a clear indication of model performance.
+- Accuracy values are printed for both training and testing phases, allowing for easy comparison of model performance across different datasets.
+
+3)Misclassification Visualization:
+- Offers deeper insights into model performance beyond accuracy and loss metrics.
+- Visualizes correct and misclassified classes, providing a visual representation of the model's performance.
+- Plots the distribution of correct and misclassified labels, aiding in identifying patterns and areas for improvement in the model's predictions.
+- These evaluation metrics collectively provide a comprehensive assessment of classification model performance. 
+  While cross-entropy loss quantifies the model's learning from the training data, accuracy offers an intuitive understanding of overall classification accuracy. 
+  Additionally, misclassification visualization provides valuable insights into specific areas where the model may need improvement, enhancing the interpretability of the model's performance.
